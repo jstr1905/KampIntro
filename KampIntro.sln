@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{58E570E9-1F4A-473B-A335-D6ADC8D5B04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{132ED5EF-C7AF-455F-A5E7-A589DB2A5634}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{132ED5EF-C7AF-455F-A5E7-A589DB2A5634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{50D709CA-08DD-4B47-9576-E57AFA28BC8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{50D709CA-08DD-4B47-9576-E57AFA28BC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{BFCAE11C-498A-48D2-87A0-B73C46DA2576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{50D709CA-08DD-4B47-9576-E57AFA28BC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D709CA-08DD-4B47-9576-E57AFA28BC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D709CA-08DD-4B47-9576-E57AFA28BC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCAE11C-498A-48D2-87A0-B73C46DA2576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCAE11C-498A-48D2-87A0-B73C46DA2576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCAE11C-498A-48D2-87A0-B73C46DA2576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCAE11C-498A-48D2-87A0-B73C46DA2576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
