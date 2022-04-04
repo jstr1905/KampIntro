@@ -24,8 +24,8 @@ namespace GenericsIntro
             items = new T[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
-                items[i] = tempArray[i];//
-                                        //değerleri itemse geri alıyoruz.
+                items[i] = tempArray[i];//değerleri itemse geri alıyoruz.
+                                        
             }
             items[items.Length - 1] = item;//aslında eklemem gereken elemanı şu an ekledim
         }
