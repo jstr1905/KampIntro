@@ -33,6 +33,7 @@ namespace Gun2Odev6
 
 
             Computers[] products = new Computers[] { product1, product2, product3 };
+            Console.WriteLine("*** foreach döngüsü ***");
             foreach (var product in products)
             {
                 Console.WriteLine(product.productId + " : " + product.productName + " : " + product.productCpu + " : " + product.productGpu + " : " + product.productPrice + "TL");
