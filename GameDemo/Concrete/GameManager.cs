@@ -13,17 +13,17 @@ namespace GameDemo.Concrete
     {
         public void Delete(Game game)
         {
-            Console.WriteLine("Oyun silindi");
+            Console.WriteLine("Oyun silindi" + " " + game.Name);
         }
 
         public void Add(Game game)
         {
-            Console.WriteLine("Yeni oyun eklendi");
+            Console.WriteLine("Yeni oyun eklendi" + " " + game.Name + " " + game.Price + " TL");
         }
 
         public void Update(Game game)
         {
-            Console.WriteLine("Oyun güncellendi");
+            Console.WriteLine("Oyun güncellendi" + " " + game.Name);
         }
     }
 }
